@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/courseTabs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/course_image"
+        android:layout_width="390dp"
+        android:layout_height="218dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="20dp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        android:src="@drawable/android_course"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/course_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginVertical="16dp"
+        android:background="@color/colorAccent"
+        android:text="Android Course"
+        android:textColor="@color/white"
+        app:circularflow_defaultRadius="@dimen/material_emphasis_medium"
+        app:circularflow_radiusInDP="@string/material_motion_easing_accelerated"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/course_image" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
