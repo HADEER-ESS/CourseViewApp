@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CourseDetailsActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/course_Name_tv"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Android Course"
+            android:textSize="22sp"
+            android:layout_marginTop="28dp"
+            android:textFontWeight="@integer/material_motion_duration_long_2"
+            android:textColor="@color/white"
+            />
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="218dp"
+        android:id="@+id/course_image_iv"
+        tools:src="@drawable/android_course"
+        app:layout_constraintTop_toBottomOf="@+id/course_Name_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:flow_horizontalBias="0.0"
+        android:scaleType="fitStart"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_description_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_image_iv"
+        tools:text="Desc"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
