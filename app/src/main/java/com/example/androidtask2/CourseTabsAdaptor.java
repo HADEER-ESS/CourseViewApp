@@ -16,7 +16,6 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.androidtask2.Data.CourseDetailsData;
 import com.example.androidtask2.Data.TabContent;
 
 import java.util.ArrayList;
@@ -54,8 +53,6 @@ public class CourseTabsAdaptor extends RecyclerView.Adapter<CourseTabsAdaptor.Vi
             @Override
             public void onClick(View itemView) {
                 if(itemView instanceof Button){
-                    Toast.makeText(itemView.getContext(),  "Hello " , Toast.LENGTH_LONG).show();
-
                     Intent intent = new Intent( context, CourseDetailsActivity.class);
                     int index = courseData.id -1 ;
                     intent.putExtra("content", index);
