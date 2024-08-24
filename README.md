@@ -4,6 +4,7 @@
 <li>Splash screen delay</li>
 <li>Fetch data from JSON file</li>
 <li>Navigation using Intent</li>
+<li>Recycler View with adaptor</li>
 
 
 
