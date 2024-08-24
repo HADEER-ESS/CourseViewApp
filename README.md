@@ -1,6 +1,10 @@
-<h3>Second-Android-Assignment, create a course app that represents the available course data,
-learn in that project to create a splash screen, delay, use a reusable screen, fetch data from a JSON file,
-and navigation (way to upgrade).</h3>
+<h1>Second-Android-Assignment</h1>
+<h3>create a course app that represents the available course data</h3>
+<h3>Techniques</h3>
+<li>Splash screen delay</li>
+<li>Fetch data from JSON file</li>
+<li>Navigation using Intent</li>
+
 
 
 <h1>//Splash Screen</h1>
