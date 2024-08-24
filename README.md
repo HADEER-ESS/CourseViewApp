@@ -1,6 +1,7 @@
 <h1>Second-Android-Assignment</h1>
 <h3>create a course app that represents the available course data</h3>
 <h3>Techniques</h3>
+<li>Java</li>
 <li>Splash screen delay</li>
 <li>Fetch data from JSON file</li>
 <li>Navigation using Intent</li>
